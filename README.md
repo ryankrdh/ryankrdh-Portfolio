@@ -5,7 +5,7 @@
 Click ⬇</br>
 <img src="src/assets/programmer1.gif" width="40" height="40" />
 
-[![ryankrdh.surge.sh](src/assets/programmer1.gif)](src/assets/programmer1.gif)
+[![ryankrdh.surge.sh](src/assets/programmer1.gif)](ryankrdh.surge.sh)
 
 <a href="ryankrdh.surge.sh"><img src="src/assets/programmer1.gif" width="100" height="100"></a>
 
