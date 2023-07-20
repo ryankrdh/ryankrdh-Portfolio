@@ -3,7 +3,11 @@
 ### Welcome to my portfolio!
 
 Click ⬇</br>
-<a href=""><img src="" width="100" height="100"></a>
+<img src="src/assets/programmer1.gif" width="40" height="40" />
+
+[![Click to Play GIF](src/assets/programmer1.gif)](src/assets/programmer1.gif)
+
+<a href="ryankrdh.surge.sh"><img src="src/assets/programmer1.gif" width="100" height="100"></a>
 
 ## Key Features
 
