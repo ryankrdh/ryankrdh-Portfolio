@@ -3,12 +3,13 @@
 ### Welcome to my portfolio!
 
 Click ⬇</br>
-<a href="ryankrdh.surge.sh">
-<img src="src/assets/programmer1.gif" width="80" height="80"/></a>
+<a href="https://ryankrdh.surge.sh/" target="_blank">
+  <img src="src/assets/programmer1.gif" alt="Click to go to my portfolio" width="80" height="80">
+</a>
 
-[![Click to Go to Another Website](src/assets/programmer1.gif)width="80" height="80"](https://ryankrdh.surge.sh/)
 
-<a href="ryankrdh.surge.sh"><img src="src/assets/programmer1.gif" width="100" height="100"></a>
+[![Click to Go to Another Website](src/assets/programmer1.gif)](https://ryankrdh.surge.sh/)
+
 
 ## Key Features
 
