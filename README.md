@@ -15,7 +15,7 @@ Click on the icon at the top to go to my portfolio
 
 ## Built With
 
-- Javascript, Html, Bootstrap(SCSS)
+- Javascript, Html, Bootstrap, Parcel, Sass, ScrollReveal.js
 
 ## Authors
 
