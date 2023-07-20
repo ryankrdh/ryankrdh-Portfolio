@@ -3,7 +3,7 @@
 ### Welcome to my portfolio!
 
 Click ⬇</br>
-<img src="src/assets/programmer1.gif" width="40" height="40" />
+<img src="src/assets/programmer1.gif" width="40" height="40" href="ryankrdh.surge.sh"/>
 
 [![ryankrdh.surge.sh](src/assets/programmer1.gif)](ryankrdh.surge.sh)
 
