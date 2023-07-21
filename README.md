@@ -3,7 +3,7 @@
 ### Welcome to my portfolio!
 <br>
 
-Click ⬇</br>
+Click ⬇<br><br>
 <a href="https://ryankrdh.surge.sh/" target="_blank">
   <img src="src/assets/programmer1.gif" alt="Click to go to my portfolio" width="80" height="80">
 </a>
@@ -35,4 +35,4 @@ This project is licensed under the MIT License. Feel free to use and modify it a
 
 ## Acknowledgements
 
-We would like to express our gratitude to the developers and contributors of the AWS services used in this project for providing robust and scalable tools for building innovative applications.
+We would like to express our gratitude to the developers and contributors of the hosting website Surge.
