@@ -3,7 +3,7 @@
 ### Welcome to my portfolio!
 <br>
 
-Click ⬇</br>
+Click ⬇<br><br>
 <a href="https://ryankrdh.surge.sh/" target="_blank">
   <img src="src/assets/programmer1.gif" alt="Click to go to my portfolio" width="80" height="80">
 </a>
