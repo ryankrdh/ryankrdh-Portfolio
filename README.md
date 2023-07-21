@@ -23,7 +23,7 @@ Click on the icon at the top to go to my portfolio
 
 ## Built With
 
-Javascript, Html, Bootstrap, Parcel, Sass, ScrollReveal.js
+Javascript, Html, Bootstrap, Parcel, Sass
 
 ## Authors
 
