@@ -1,193 +1,139 @@
 #hero {
-  min-height: 100vh;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  border-bottom: 0px;
-  background: $white-color;
-  font-weight: 400;
-  color: $dark-blue-text;
-  padding: 0rem 5.6rem;
-  margin-bottom: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
+	min-height: 100vh;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	border-bottom: 0px;
+	background: $white-color;
+	font-weight: 400;
+	color: $dark-blue-text;
+	padding: 0rem 5.6rem;
+	margin-bottom: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
 
-  // Set position sticky so the jumbotron stays fixed while you scroll.
-  // position: sticky;
+	// background: url('assets/programmer.mp4');
+	// background-position: center;
+	// background-size: cover;
 
-  // If you want to set a background image on the hero section, uncomment these with your custom image
+	@include respond(phone) {
+		padding: 0rem $default-font-size;
+	}
 
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+	.hero-title {
+		font-size: 5.6rem;
+		font-weight: 700;
+		margin-bottom: 3.2rem;
+		text-align: left;
 
-  @include respond(phone) {
-    padding: 0rem $default-font-size;
-  }
+		@include respond(tab-land) {
+			font-size: 4rem;
+		}
+		@include respond(tab-port) {
+			font-size: 3.6rem;
+			text-align: center;
+		}
+		@include respond(phone) {
+			font-size: 3.5rem;
+			line-height: 1.5;
+		}
+		@include respond(phone-xs) {
+			font-size: 2.8rem;
+		}
+	}
 
-  .hero-title {
-    font-size: 5.6rem;
-    font-weight: 700;
-    margin-bottom: 3.2rem;
-    text-align: left;
+	.hero-cta {
+		display: flex;
 
-    @include respond(tab-land) {
-      font-size: 4rem;
-    }
-    @include respond(tab-port) {
-      font-size: 3.6rem;
-      text-align: center;
-    }
-    @include respond(phone) {
-      font-size: 3.5rem;
-      line-height: 1.5;
-    }
-    @include respond(phone-xs) {
-      font-size: 2.8rem;
-    }
-  }
+		@include respond(tab-port) {
+			justify-content: center;
+		}
 
-  .hero-cta {
-    display: flex;
+		& a {
+			font-size: 2.4rem;
 
-    @include respond(tab-port) {
-      justify-content: center;
-    }
-
-    & a {
-      font-size: 2.4rem;
-
-      @include respond(phone) {
-        font-size: 2rem;
-      }
-    }
-  }
+			@include respond(phone) {
+				font-size: 2rem;
+			}
+		}
+	}
 }
 // Social link at top now.
 .social-link {
-  i {
-    &:hover {
-      transform: translateY(-5px);
-    }
-  }
+	i {
+		&:hover {
+			transform: translateY(-5px);
+		}
+	}
 }
 .social-icons-container {
-  display: flex;
-  justify-content: flex-start;
+	display: flex;
+	justify-content: center;
 }
 
 .fab {
-  font-size: 40px;
-}
-#git {
-  color: black;
-}
-.icon-large {
-  font-size: 5rem;
-  margin-right: 5rem;
-  margin-left: 4rem;
-}
-body {
-  margin: 0;
-  padding: 0;
-}
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 50vh;
-  overflow: hidden;
-  z-index: 0;
-}
-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.video-overlay {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100vh;
-  height: 50vh;
-  background-color: rgba(0, 0, 0, 0.3);
+	font-size: 40px;
 }
 
-@media screen and (max-width: 1850px) {
-  .video-container {
-    height: 40vh;
-  }
+#git {
+	color: black;
 }
-@media screen and (max-width: 1400px) {
-  .video-container {
-    height: 40vh;
-  }
+
+.icon-large {
+	font-size: 5rem;
+	margin-right: 5rem;
+	margin-left: 3rem;
 }
-@media screen and (max-width: 1350px) {
-  .video-container {
-    position: fixed;
-    top: 75%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    width: 40vh;
-    max-width: 100%;
-    height: auto;
-    z-index: 1;
-  }
+
+body {
+	margin: 0;
+	padding: 0;
 }
-@media screen and (max-width: 991px) {
-  .video-container {
-    position: fixed;
-    top: 80%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    width: 40vh;
-    max-width: 100%;
-    height: auto;
-    z-index: 1;
-  }
+
+.video-container {
+	min-width: 60%;
+	height: auto;
+	padding: 2.5vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-@media screen and (max-width: 900px) {
-  .video-container {
-    position: fixed;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40vh;
-    max-width: 100%;
-    height: auto;
-    z-index: 1;
-  }
+
+.video-main {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
 }
-@media screen and (max-width: 425px) {
-  .video-container {
-    position: fixed;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40vh;
-    max-width: 100%;
-    height: auto;
-    z-index: 1;
-  }
+
+@media (max-width: 1050px) {
+	.video-container {
+		min-width: 30%;
+		padding-top: 500px;
+		position: absolute;
+		max-width: 40vw;
+		left: 50%; /* Set the left position to 50% */
+		transform: translateX(-50%); /* Center the element horizontally */
+	}
 }
-@media screen and (max-width: 385px) {
-  .video-container {
-    position: fixed;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 35vh;
-    max-width: 100%;
-    height: auto;
-    z-index: 1;
-  }
+
+@media (max-width: 900px) {
+	.icon-large {
+		font-size: 5rem;
+		margin-right: 5rem;
+		margin-left: 5.5rem;
+	}
 }
-@media screen and (max-width: 350px) {
-  .video-container {
-    height: 0%;
-    width: 0%;
-  }
+
+@media (max-width: 775px) {
+	.video-container {
+		min-width: 50%;
+		padding-top: 500px;
+		position: absolute;
+		max-width: 40vw;
+		left: 50%; /* Set the left position to 50% */
+		transform: translateX(-50%); /* Center the element horizontally */
+	}
 }
