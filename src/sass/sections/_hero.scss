@@ -109,13 +109,18 @@ body {
 }
 
 @media (max-width: 1050px) {
+	.video-main {
+		width: 70%;
+		height: auto;
+		max-width: 100%;
+	}
 	.video-container {
-		min-width: 30%;
-		padding-top: 500px;
-		position: absolute;
-		max-width: 40vw;
-		left: 50%; /* Set the left position to 50% */
-		transform: translateX(-50%); /* Center the element horizontally */
+		// min-width: 30%;
+		// padding-top: 500px;
+		// display: flex;
+		// max-width: 40vw;
+		// left: 50%; /* Set the left position to 50% */
+		// transform: translateX(-50%); /* Center the element horizontally */
 	}
 }
 
@@ -129,11 +134,12 @@ body {
 
 @media (max-width: 775px) {
 	.video-container {
-		min-width: 50%;
-		padding-top: 500px;
-		position: absolute;
-		max-width: 40vw;
-		left: 50%; /* Set the left position to 50% */
-		transform: translateX(-50%); /* Center the element horizontally */
+		display: none;
+		// min-width: 50%;
+		// padding-top: 500px;
+		// position: absolute;
+		// max-width: 40vw;
+		// left: 50%; /* Set the left position to 50% */
+		// transform: translateX(-50%); /* Center the element horizontally */
 	}
 }
