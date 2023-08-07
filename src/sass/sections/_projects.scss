@@ -23,12 +23,9 @@
 				margin-bottom: 4rem;
 			}
 
-			// .col {
-			// 	width: 70%;
-			// 	@include respond(phone) {
-			// 		width: 100%;
-			// 	}
-			// }
+			.project-wrapper__image {
+				padding-bottom: 5%;
+			}
 		}
 
 		&__text {

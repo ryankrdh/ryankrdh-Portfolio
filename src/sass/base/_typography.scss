@@ -5,9 +5,12 @@ h1 {
 }
 
 p,
-a {
+a,
+ul,
+li {
 	font-family: 'Josefin sans', sans-serif;
 	font-size: $default-font-size;
+	padding-bottom: 10px;
 }
 
 a,
